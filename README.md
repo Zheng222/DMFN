@@ -1,5 +1,5 @@
 # DMFN
-Image Inpainting via Dense Multi-scale Fusion Network with Self-guided Regression Loss
+Image Fine-grained Inpainting
 
 ## Example Results
 ### FFHQ results
