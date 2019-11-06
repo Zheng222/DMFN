@@ -1,5 +1,4 @@
-# DMFN
-Image Fine-grained Inpainting
+# Image Fine-grained Inpainting
 
 ## Example Results
 ### FFHQ results
