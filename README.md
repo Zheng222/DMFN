@@ -1,7 +1,7 @@
 # Image Fine-grained Inpainting
 
 [[arXiv]]()
-[[Supplement]]()
+[[Supplement]](https://drive.google.com/open?id=1nDNWoK2lWCW3g0URl9VNXbKooVlbMBxG)
 
 ## Example Results
 ### FFHQ results
