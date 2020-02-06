@@ -1,5 +1,8 @@
 # Image Fine-grained Inpainting
 
+[[arXiv]]()
+[[Supplement]]()
+
 ## Example Results
 ### FFHQ results
 ![FFHQ-results](figures/FFHQ_results.png)
