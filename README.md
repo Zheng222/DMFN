@@ -9,3 +9,19 @@
 
 ### CelebA-HQ results
 ![CelebA-HQ-results](figures/CelebA-HQ_results.png)
+
+
+## Citation
+
+If you find DMFN useful in your research, please consider citing:
+
+```
+
+@article{Hui-DMFN-2020,
+  title={Image Fine-grained Inpainting},
+  author={Hui, Zheng and Li, Jie and Wang, Xiumei and Gao, Xinbo},
+  journal={arXiv:2002.02609},
+  year={2020}
+}
+
+```
