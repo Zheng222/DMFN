@@ -1,6 +1,6 @@
 # Image Fine-grained Inpainting
 
-[[arXiv]]()
+[[arXiv]](https://arxiv.org/abs/2002.02609)
 [[Supplementary material]](https://drive.google.com/open?id=1nDNWoK2lWCW3g0URl9VNXbKooVlbMBxG)
 
 ## Example Results
