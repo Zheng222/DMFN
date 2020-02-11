@@ -3,6 +3,10 @@
 [[arXiv]](https://arxiv.org/abs/2002.02609)
 [[Supplementary material]](https://drive.google.com/open?id=1nDNWoK2lWCW3g0URl9VNXbKooVlbMBxG)
 
+## Testing
+
+## Training
+
 ## Example Results
 ### FFHQ results
 ![FFHQ-results](figures/FFHQ_results.png)
