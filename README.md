@@ -8,6 +8,9 @@
 ## Training
 
 ## Example Results
+### ADE20K Extreme Inpainting (AIM 2020)
+![ADE20K-results](figures/extreme_inpainting_task1.jpg)
+
 ### FFHQ results
 ![FFHQ-results](figures/FFHQ_results.png)
 
