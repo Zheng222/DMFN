@@ -31,4 +31,10 @@ If you find DMFN useful in your research, please consider citing:
   year={2020}
 }
 
+@InProceedings{ntavelis2020aim_inpainting,
+author = {Evangelos Ntavelis and Andrés Romero and Bigdeli, Siavash and Radu Timofte and others},
+title = {{AIM 2020} Challenge on Image Extreme Inpainting},
+booktitle = {European Conference on Computer Vision Workshops},
+year = {2020},
+}
 ```
