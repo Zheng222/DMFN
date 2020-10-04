@@ -1,7 +1,10 @@
 # Image Fine-grained Inpainting
 
+## :sparkles: New Feature
+- Oct 4, 2020. **Update the main manuscript and the corresponding supplementary material.**
+
 [[arXiv]](https://arxiv.org/abs/2002.02609)
-[[Supplementary material]](https://drive.google.com/open?id=1nDNWoK2lWCW3g0URl9VNXbKooVlbMBxG)
+[[Supplementary material]](https://drive.google.com/file/d/133l9inmBxAoJWKgyzLsLaOCSg-Dp9bk8/view?usp=sharing)
 
 ## Testing
 
