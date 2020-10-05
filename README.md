@@ -6,6 +6,8 @@
 [[arXiv]](https://arxiv.org/abs/2002.02609)
 [[Supplementary material]](https://drive.google.com/file/d/133l9inmBxAoJWKgyzLsLaOCSg-Dp9bk8/view?usp=sharing)
 
+[[AIM 2020 Challenge on Image Extreme Inpainting]](https://arxiv.org/abs/2010.01110)
+
 ## Testing
 
 ## Training
