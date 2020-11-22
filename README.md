@@ -1,6 +1,8 @@
 # Image Fine-grained Inpainting
 
 ## :sparkles: News
+- Nov 10, 2020. **Upload the test code. (Celeba-HQ)**
+
 - Oct 4, 2020. **Update the main manuscript and the corresponding supplementary material.**
 
 [[arXiv]](https://arxiv.org/abs/2002.02609)
