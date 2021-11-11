@@ -1,6 +1,8 @@
 # Image Fine-grained Inpainting
 
 ## :sparkles: News
+- Nov 11, 2021. **Upload the training code.**
+
 - Nov 10, 2020. **Upload the test code. (Celeba-HQ)**
 
 - Oct 4, 2020. **Update the main manuscript and the corresponding supplementary material.**
