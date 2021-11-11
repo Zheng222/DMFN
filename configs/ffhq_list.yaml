@@ -6,10 +6,10 @@ datasets:
     n_workers: 16
     fineSize: 256
     img_shape: [3, 256, 256]  # [channel, height, width]
-    image_list: 'datasets/celeba_hq/list_train.txt'
+    image_list: 'datasets/ffhq/list_train.txt'
     mask_list: 'datasets/mask/list_train.txt'
     mask_type: 'regular'
-    mask_pos: 'random'
+    mask_pos: 'center'
     mask_height: 128
     mask_width: 128
     vertical_margin: 0
@@ -17,16 +17,16 @@ datasets:
     max_delta_height: 32
     max_delta_width: 32
   val:
-    name: 'celeba_hq'
+    name: 'ffhq'
     batch_size: 1
     use_shuffle: True
     n_workers: 1
     fineSize: 256
     img_shape: [3, 256, 256]  # [channel, height, width]
-    image_list: 'datasets/celeba_hq/list_val.txt'
+    image_list: 'datasets/ffhq/list_val.txt'
     mask_list: 'datasets/mask/list_val.txt'
     mask_type: 'regular'
-    mask_pos: 'random'
+    mask_pos: 'center'
     mask_height: 128
     mask_width: 128
     vertical_margin: 0
@@ -34,16 +34,16 @@ datasets:
     max_delta_height: 0
     max_delta_width: 0
   test:
-    name: 'celeba_hq'
+    name: 'ffhq'
     batch_size: 1
     use_shuffle: False
     n_workers: 1
     fineSize: 256
     img_shape: [3, 256, 256]
-    image_list: 'datasets/celeba_hq/list_val.txt'
+    image_list: 'datasets/ffhq/list_val.txt'
     mask_list: 'datasets/mask/list_val.txt'
     mask_type: 'regular'
-    mask_pos: 'random'
+    mask_pos: 'center'
     mask_height: 128
     mask_width: 128
     vertical_margin: 0
@@ -57,9 +57,9 @@ img_shape: [3, 256, 256]  # [channel, height, width]
 
 
 is_train: True
-gpu_ids: []
-pretrained_model_G: 'outputs/celeba-hq/checkpoints/58000_G.pth'
-pretrained_model_D: ''
+gpu_ids: [0]
+pretrained_model_G: 'outputs/ffhq/checkpoints/56000_G.pth'
+pretrained_model_D: 'outputs/ffhq/checkpoints/2000_D.pth'
 val_iter: 200
 log_iter: 50
 save_image_iter: 500
@@ -85,12 +85,13 @@ train:
   pixel_criterion: 'l1'  # [l1 | ml1]
   feature_weight: 25
   feature_criterion: 'l1'
+  center_weight: 1
   dis_feature_weight: 5
   dis_feature_criterion: 'l1'
-  gan_weight: 0.003
+  gan_weight: 0.003 
   gan_type: 'vanilla'  # vanilla | lsgan
   lr_G: 0.0002
   lr_D: 0.0002
   lr_policy: 'MultiStepLR'
-  lr_steps: [100000]
+  lr_steps: [50000]
   lr_gamma: 0.5
