@@ -85,6 +85,7 @@ train:
   pixel_criterion: 'l1'  # [l1 | ml1]
   feature_weight: 25
   feature_criterion: 'l1'
+  center_weight: 1
   dis_feature_weight: 5
   dis_feature_criterion: 'l1'
   gan_weight: 0.003
