@@ -29,8 +29,8 @@ def define_D(opt):
     opt_net = opt['network_D']
     which_model = opt_net['which_model_D']
 
-    if which_model == 'realness_discriminator':
-        netD = arch.Discriminator_realnessGAN(in_nc=opt_net['in_nc'], nf=opt_net['nf'])
+    if which_model == 'discriminator':
+        netD = arch.Discriminator(in_nc=opt_net['in_nc'], nf=opt_net['nf'])
     else:
         raise NotImplementedError('Unsupported discriminator model: {}'.format(which_model))
 
